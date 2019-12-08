@@ -12,10 +12,10 @@ service = NaturalLanguageUnderstandingV1(
     iam_apikey='4bFuF68iqbLIJtcoJHGlDMIXe88GldQj4lXttUnkkN8C')
 
 # input your credentials here
-consumer_key = "WD6MNBdsjOSlEtOL6K7lSz3Jj"
-consumer_secret = "javuS4bikNZtpDqwp98hoifI3LRcLl8Or0KPeEKbZ9SH3SxrXN"
-access_token = "369120217-EX4KS3ObQfe1SSIYgoskjENt1cg7XNilamxvQbqK"
-access_token_secret = "ttsdHxwATCOK4Eu2LMmxMVKkWfTto3zqQIPmfdVohXENU"
+consumer_key = "yourConsumerTokenKey"
+consumer_secret = "yourConsumerTokenSecret"
+access_token = "yourAcessToken"
+access_token_secret = "yourAcessTokenSecret"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
